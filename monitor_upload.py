@@ -10,7 +10,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # This username is static and doesn't change between printers
+FTP_SERVER = os.getenv('FTP_SERVER')
 FTP_USERNAME = "bblp"
+FTP_PASSWORD = os.getenv('FTP_PASSWORD')
+MQTT_SERVER = os.getenv('MQTT_SERVER')
+DEV_ID = os.getenv('DEV_ID')
+DIRECTORY_TO_MONITOR = os.getenv('DIRECTORY_TO_MONITOR')
+UPLOADED_FILES_DIRECTORY = os.getenv('UPLOADED_FILES_DIRECTORY')
 
 # Connect to the FTP server
 ftp  = ftplib.FTP(FTP_SERVER)
