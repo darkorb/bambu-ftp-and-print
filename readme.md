@@ -9,6 +9,12 @@ Mostly the way that it manages this is through a combo of MQTT messages and file
 
 Raise issues [here](https://github.com/darkorb/bambu-ftp-and-print/issues/new) with as much detail as you can provide.
 
+Supported Platforms;
+- macOS (12/13 tested), with Python 3
+- Linux, Python 3
+
+Sorry Windows users, I don't have an option for testing this easily right this second but will look into it in a short while.
+
 ## Required Information
 There are a few options that you will need to configure for this to work and a few small bit's of information you will require.
 You will need the following details for your printer(s);
