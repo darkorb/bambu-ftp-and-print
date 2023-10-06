@@ -1,6 +1,9 @@
 
 # Bambu Labs X1* FTP and Print
 
+> [!WARNING]
+> This has been archived as of 6th October 2023, due to life things on I do not have time to tinker with this any longer.
+
 This is a Python script that provides a little of the "cloud" like functionality that you lose when you run in LAN Only mode. Namely the ability to send prints from the slicer directly to the printer.
 
 Mostly the way that it manages this is through a combo of MQTT messages and file pulls when a command is picked up by the printer (`pushall`). This script emulates that somewhat but instead makes use of the local FTP server to place the `3mf` file onto the printer and then trigger a print of that file for you.
