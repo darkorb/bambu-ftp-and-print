@@ -2,7 +2,7 @@
 # Bambu Labs X1* FTP and Print
 
 > [!WARNING]
-> **This has been archived as of 6th October 2023, due to life things on I do not have time to tinker with this any longer.**
+> **This has been archived as of 6th October 2023, due to life events I do not have time to tinker with this going forward.**
 
 This is a Python script that provides a little of the "cloud" like functionality that you lose when you run in LAN Only mode. Namely the ability to send prints from the slicer directly to the printer.
 
